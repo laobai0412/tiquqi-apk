@@ -10,6 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: List files (Debug)
+        run: ls -R  # 这行能帮我们确认文件是否都在正确的位置
+
+      - name: Build with Buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
