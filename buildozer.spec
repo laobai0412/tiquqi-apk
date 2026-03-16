@@ -24,6 +24,9 @@ requirements = python3,kivy,openpyxl,python-docx
 # (str) 屏幕方向
 orientation = portrait
 
+# (str) Icon of the application
+icon.filename = boluo.png
+
 # -----------------------------------------------------------------------------
 # 安卓特有设置
 # -----------------------------------------------------------------------------
